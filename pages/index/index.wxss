@@ -1,0 +1,101 @@
+page {
+  height: 100%;
+}
+
+.swipers{
+  margin-bottom: 10rpx;
+}
+
+.header {
+  border-left-width: 5rpx;
+  border-left-style: solid;
+  border-left-color: limegreen;
+  margin-right: 20rpx;
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+  margin-bottom: 10rpx;
+  padding-left: 5rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.scroll-image{
+  height: 100%;
+  width: 100%;
+}
+
+.topcontent-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.topcontent-item {
+  /*子组件是设置flex时父组件必须也是flex布局才能生效*/
+  height: 250rpx;
+  width: 48%;
+  margin-bottom: 1%;
+  position: relative;
+  background-color: yellowgreen;
+}
+
+.topcontent-item-image {
+  height: 100%;
+  width: 100%;
+}
+
+.topcontent-item-text {
+  position: absolute;  /*其父控件徐定义position: relative*/
+  bottom: 0rpx;
+  color: rgba(255, 255, 255, 0.8);
+  width: 96%;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.3)); /*第四个参数为透明度*/
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+
+.bottomcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomcontent-item {
+  width: 100%;
+  margin-bottom: 8rpx;
+}
+
+.bottomcontent-item-images{
+  height:410rpx;
+  position: relative;
+}
+.bottomcontent-item-image{
+  height:100%;
+  width: 100%;
+}
+
+.bottomcontent-item-headimage{
+  position: absolute;
+  height: 120rpx;
+  width: 120rpx;
+  bottom: -60rpx;
+  right: 30rpx;
+}
+
+.bottomcontent-item-text{
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.bottomcontent-item-text-title{
+  color: #000000;
+  font-weight: bold;  /*加粗*/
+}
+
+.bottomcontent-item-text-content{
+  color: #6b6a6a;
+
+}

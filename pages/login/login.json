@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "登录",
+  "usingComponents": {
+    "component-login": "/components/component-demo/component-demo",
+    "selectable-group": "/components/selectable-group/selectable-group",
+    "custom-radio": "/components/custom-radio/custom-radio",
+    "custom-checkbox": "/components/custom-checkbox/custom-checkbox"
+  }
+}

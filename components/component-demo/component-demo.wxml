@@ -1,0 +1,6 @@
+<view style="text-align:center;">
+  <slot class="slot-before" name="before"></slot>
+  <text>{{employeeId}} : {{employeeName}}</text>
+  <slot class="slot-after" name="after"></slot>
+  <button type="primary" size="mini" bindtap="changeData">修改组件数据项</button>
+</view>

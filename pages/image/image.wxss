@@ -1,0 +1,19 @@
+.normal{
+   height: 400rpx;
+}
+.style{
+   background-color: aquamarine;
+   margin-top: 10rpx;
+   top: 400rpx;
+   position: absolute;
+}
+.absolute{
+  border: 1px solid #fff;
+  position: absolute;
+  text-align: center;
+  left: 220rpx;
+  bottom: 10rpx;
+}
+.absolute button{
+  margin-right: 10rpx;
+}

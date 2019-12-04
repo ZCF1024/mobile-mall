@@ -1,0 +1,9 @@
+<button type="primary" size="mini" bindtap="login">登录</button>
+<!-- <component-login>
+  <view class="slot-before" slot="before">这个是前面slot的内容</view>
+  <view class="slot-after" slot="after">这个是前面slot的内容</view>
+</component-login> -->
+<view>selectable-group with custom-radio</view>
+<selectable-group generic:selectable="custom-radio" />
+<view>selectable-group with custom-checkbox</view>
+<selectable-group generic:selectable="custom-checkbox" />

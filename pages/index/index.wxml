@@ -1,0 +1,49 @@
+<view class="containers">
+  <view class="swipers">
+    <swiper indicator-dots indicator-active-color='white' autoplay>
+      <swiper-item wx:for="{{scrollImage}}" wx:key="key" item-id="{{index}}">
+        <!-- 长宽1 : 2  -->
+        <image src="{{item}}" class="scroll-image" />
+      </swiper-item>
+    </swiper>
+  </view>
+  
+    <scroll-view scroll-y="true" style='height: 100%'>
+      <view class="topcontent content">
+        <view class="header">
+          <text>精品推荐</text>
+          <text style='color: limegreen'>全部精品</text>
+        </view>
+        <view class="topcontent-items">
+          <view class="topcontent-item" wx:for="{{contentItemImage}}" wx:key="key">
+            <image src='{{item}}' class='topcontent-item-image' />
+            <view class='topcontent-item-text'>
+              <text>{{contentItemText[index]}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="bottomcontent content">
+        <view class="bottomheader header">
+          <text>热门评测</text>
+          <text style='color: limegreen'>全部评测</text>
+        </view>
+        <view class="bottomcontent-item" wx:for="{{bottomcontentitemImage}}" wx:key="key">
+          <view class="bottomcontent-item-images">
+            <image class='bottomcontent-item-image' src="{{bottomcontentitemImage[index]}}" />
+            <image class="bottomcontent-item-headimage" src="{{robots[index]}}" />
+          </view>
+          <view class="bottomcontent-item-text">
+            <view class="bottomcontent-item-text-title">
+              <text>{{bottomcontentitemTitle[index]}}</text>
+            </view>
+            <view class="bottomcontent-item-text-content">
+              <text space="emsp">  {{bottomcontentitemContent[index]}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  
+</view>
+

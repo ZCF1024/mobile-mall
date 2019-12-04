@@ -1,0 +1,6 @@
+.slot-before{
+  color: red;
+}
+.slot-after{
+  color: green;
+}
