@@ -6,7 +6,8 @@
     "pages/logs/logs",
     "pages/button/button",
     "pages/image/image",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/hall-page/hall-page"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,6 +22,12 @@
         "text": "首页",
         "iconPath": "/images/tabbar/home.png",
         "selectedIconPath": "/images/tabbar/home-selected.png"
+      },
+      {
+        "pagePath": "pages/hall-page/hall-page",
+        "text": "大厅",
+        "iconPath": "/images/tabbar/hall.png",
+        "selectedIconPath": "/images/tabbar/hall-selected.png"
       },
       {
         "pagePath": "pages/login/login",
